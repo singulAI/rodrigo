@@ -30,6 +30,26 @@ npx prisma generate
 npx prisma db push
 ```
 
+## Testing
+
+This project includes comprehensive test coverage for utilities, components, hooks, and API routes.
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Generate coverage report
+npm run test:coverage
+
+# Run tests with verbose output
+npm run test:verbose
+```
+
+For detailed testing documentation, see [TESTING.md](TESTING.md) and the [Testing Guide](docs/TESTING_GUIDE.md).
+
 ## Deployment Notes
 
 - The repository no longer ships with Firebase functions or configuration files.
